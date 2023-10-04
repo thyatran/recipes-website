@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+* {
+    background-color: #040E27;
+    font-family: "playfair display", 'Times New Roman', Times, sans-serif;
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 0px 20px 150px 20px;
+}
+
+.container h1 {
+    color: #040E27;
+    background: none;
+    font-size: 50px;
+}
+
+.container img {
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    margin-top: -30px;
+}
+
+.container .home {
+    border-width: 0;
+    background-color: #E0E7F9;
+    border-radius: 10px;
+    padding: 13px 20px;
+    margin-bottom: 20px;
+} 
+
+.container .home:hover {
+    box-shadow: 6px 6px 14px 2px rgba(248, 231, 108, 0.5);
+} 
+
+.container .home  a {
+    background: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #040E27;
+}
+
+.container h2 {
+    background: none;
+}
+
+.container p {
+    background: none;
+    padding: 0 30px;
+}
+
+.container ul,
+.container ul li,
+.container ol,
+.container ol li {
+    background: none;
+}
+
+.container ul li,
+.container ol li {
+    margin: 20px 0px 10px;
+}
+
+.container .scroll {
+    background-color: #E0E7F9;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px 20px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container .scroll:hover{
+    box-shadow: 6px 6px 14px 2px rgba(248, 231, 108, 0.5);
+}
